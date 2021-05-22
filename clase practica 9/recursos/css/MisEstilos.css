@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main h2{
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    color: crimson;
+}
+
+.miTarjeta {
+    background-color:rgba(223, 161, 136, 0.562);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5%;
+}
+#logo {
+    text-align: center;
+   padding: 0%;
+    margin: 0%;
+   
+     }
+
+#barra{
+    background-color: rgb(223, 160, 136);
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+}
+
+
+#barra li{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline;
+    width: 100%;
+  
+}
+
+#barra ul li a{
+    text-decoration: none;
+    color: rgb(228, 208, 129);
+}
+
+#barra :hover{
+    color: rgb(250, 248, 255);
+}
+
+
+#listaTarjetas{
+     color: rgb(98, 3, 107);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
+.boton{
+    background-color: #e23941; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+/*clases de jQuery*/
+.vertical{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.horizontal{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.fondo{
+background-color: rgb(223, 196, 162);
+}
+  
+.fondo2{
+    background-color: ivory;
+}

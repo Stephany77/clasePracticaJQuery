@@ -1,0 +1,8 @@
+a{
+    background-color: aquamarine;
+    color: mediumorchid;
+}
+
+a:nth-child(1){
+    border-bottom: 2px tomato;
+}
